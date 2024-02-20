@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upload-container {
+    text-align: center;
+    max-width: 500px;
+    margin: 30px;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.drop-area {
+    border: 2px dashed #007bff;
+    padding: 60px;
+    cursor: pointer;
+    color: #007bff;
+    margin: 20px 0;
+}
+
+.drop-area:hover {
+    background-color: #f0f8ff;
+}
+
+.upload-btn, button#uploadButton {
+    color: white;
+    background-color: #007bff;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px auto;
+}
+
+button#uploadButton {
+    background-color: #28a745;
+}
+
+button#uploadButton:hover {
+    background-color: #218838;
+}
+
+#preview {
+    margin-top: 20px;
+}
+
+.result {
+    margin-top: 30px;
+    text-align: center;
+    color: #333;
+    font-size: 40px;
+}
+
+.drop-area img {
+    max-width: 50%; /* ドロップエリアの幅に合わせて画像サイズを調整 */
+    max-height: 300px; /* 最大高さを300pxに制限 */
+    margin-top: 10px; /* 画像の上部に余白を設ける */
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Upload</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <div class="upload-container">
+        <h2>Upload Image</h2>
+        <div id="dropArea" class="drop-area">
+            <p>Drag & drop your image here or <span class="upload-btn">Browse</span></p>
+            <input type="file" id="fileInput" name="image" required hidden>
+        </div>
+        <button id="uploadButton">Upload</button>
+    </div>
+    <div id="preview"></div>
+    <div id="result" class="result"></div>
+
+    <script src="static/js/uploadScript.js"></script>
+</body>
+</html>
